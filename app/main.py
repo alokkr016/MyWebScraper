@@ -3,7 +3,6 @@ import json
 from bs4 import BeautifulSoup
 import urllib.request
 import urllib
-import parser
 import urllib.error
 
 html = urllib.request.urlopen('https://time.com/').read()
